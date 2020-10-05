@@ -8,7 +8,7 @@ contract DevFunds {
 
     // the ONIGIRI token
     OnigiriToken public onigiri;
-    // dev address to receive sake
+    // dev address to receive onigiri
     address public devaddr;
     // last withdraw block, use block 1 as default
     uint public lastWithdrawBlock = 1;
